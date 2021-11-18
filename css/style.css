@@ -10,7 +10,17 @@
 h1,h2,h3{
     font-family: 'Crimson Text', serif;
 }
-
+nav{
+    overflow: hidden;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #eee;
+}
 
 
 
