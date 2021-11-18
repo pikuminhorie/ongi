@@ -10,6 +10,13 @@
 h1,h2,h3{
     font-family: 'Crimson Text', serif;
 }
+h2,h3{
+    font-size: 80px;
+}
+.about h3{
+    transform: rotate(180deg); 
+}
+
 nav{
     overflow: hidden;
 }
