@@ -48,6 +48,13 @@ h1,h2,h3{
 
 /* レスポンシブ-スマホ- */
 @media all and (max-width:599px){
-
+    .split{
+        display: flex;
+        flex-direction: column;
+    }
+    .split,.split-item,.split-left__inner,.split-right__inner,.split-left{
+        position: static;
+        width: 100vw;
+    }
 
 }
