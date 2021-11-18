@@ -3,15 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+.all{
+    color: #122D6B;
+    font-family: 'Noto Serif JP', serif;
+}
+h1,h2,h3{
+    font-family: 'Crimson Text', serif;
+}
+
+
+
+
+/* 構図用css */
 .example-classname{
-    background: #2cc3ce;
+    background: #EEE;
     padding: 40px;
-    color: #fff;
     font-size: 20px;
     height: 100vh;
-  }
-  .example-classname:nth-child(2){
-    background: #f73656;
   }
 
   .split{
@@ -24,7 +32,7 @@
     width: 50%;
 }
 .split-left{
-    background: #000;
+    background: #122D6B;
     color: #fff;
     position: relative;
 }
